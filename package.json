@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Включите отображение скрытых файлов и папок в проводнике своей операционной системы, иначе вы не\r сможете выбрать и скопировать себе файлы настроек проекта, имена которых начинаются с точки.",
   "main": "index.js",
-  "homepage": "https://oxica.github.io/project-filmoteka",
+  "homepage": "https://xnskie.github.io/project-filmoteka",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project-filmoteka/"
