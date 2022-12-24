@@ -140,8 +140,7 @@ export class API_service {
         }
       });
       console.log(data.results);
-      console.log(this.id)
-      console.log(this.id.current.target)
+      console.log(this.id);
       return data;
     }
     catch (error) {
