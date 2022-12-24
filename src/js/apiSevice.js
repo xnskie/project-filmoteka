@@ -131,22 +131,20 @@ export class API_service {
     }
   }
 
-  async fetchYoutube(){
-    try{
-        let {data} = await axios(`/movie/${this.id}/videos`,{
-            params: {
-            api_key: API_KEY,
-            language: "en - US",
-            }
-        });
-        // console.log(data);
-        return data;
+  async fetchYoutube() {
+    try {
+      let { data } = await axios(`/movie/${this.id}/videos`, {
+        params: {
+          api_key: API_KEY,
+          language: "en - US",
+        }
+      });
+      console.log(data);
+      return data;
     }
-   catch(error){
-       console.log("error");
-   }
-  
-   
+    catch (error) {
+      console.log("error");
+    }
   }
 
   get query() {
