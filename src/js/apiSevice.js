@@ -139,7 +139,7 @@ export class API_service {
           language: "en - US",
         }
       });
-      console.log(data);
+      console.log(data.results);
       return data;
     }
     catch (error) {
